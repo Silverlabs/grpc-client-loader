@@ -1,0 +1,33 @@
+{
+  "name": "@silverlabs/grpc-client-loader",
+  "version": "0.1.0",
+  "description": "A loader to load grpc client stubs from a directory of proto files.",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@silverlabs/grpcx": "^0.1.1",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "mocha test/**/*test.js",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silverlabs/grpc-client-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Silverlabs/grpc-client-loader/issues"
+  },
+  "homepage": "https://github.com/Silverlabs/grpc-client-loader#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.1.5",
+    "@grpc/proto-loader": "^0.5.5"
+  }
+}
